@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="musicStore">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="storeDetails" minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element ref="albums" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+</xs:element>
+	<xs:element name="storeDetails">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="storeLogo"/>
+				<xs:element ref="storeName"/>
+				<xs:element ref="storeAddress"/>
+				<xs:element ref="storeTelephoneNumber"/>
+				<xs:element ref="storeWebSite"/>
+			</xs:sequence>
+			
+		</xs:complexType>
+	</xs:element>
+	
+	
+	<xs:element name ="storeAddress">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element name ="storeAddress1" type="xs:string"/>
+				<xs:element name ="storeAddress2" type="xs:string"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+
+<xs:element name ="storeTelephoneNumber">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element name ="storePhoneNumber1" type="xs:string"/>
+				<xs:element name ="storePhoneNumber2" type="xs:string"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+
+
+
+	
+	<xs:element name="storeName" type="xs:string"/>
+	<xs:element name="storeWebSite" type="xs:string"/>
+	<xs:element name="storeLogo"/>
+	
+	
+	
+	<xs:element name="albums">
+		<xs:complexType>
+			<xs:sequence>
+			<xs:element ref="Kandara" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element ref="Resham" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element ref="Gantabya" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element ref="SaraSansar" minOccurs="1" maxOccurs="unbounded"/> 
+			<xs:element ref="Karma" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	
+	<xs:element name="Kandara">
+	<xs:complexType>
+		<xs:sequence>
+			
+			<xs:element ref="kandara_image"  minOccurs="0" maxOccurs="unbounded"/>
+			
+			<xs:element ref="song"/>
+			<xs:element ref="genre"/>
+			<xs:element ref="music"/>
+			<xs:element ref="Keyboards"/>
+			<xs:element ref="Guitar"/>
+			<xs:element ref="vocalist"/>
+			<xs:element ref="artist"/>
+			<xs:element ref="released_year"/>
+			<xs:element ref="description"/>
+			<xs:element ref="price"/>
+			<xs:element ref="songDescription" minOccurs="1"/>
+		</xs:sequence>
+			<xs:attribute name="albumID" use="required" type="ID_Type"/>
+	</xs:complexType>
+</xs:element>	
+	<xs:element name="Resham">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="Resham_image" minOccurs="0" maxOccurs="unbounded" />
+			
+			<xs:element ref="song"/>
+			<xs:element ref="genre"/>
+			<xs:element ref="music"/>
+			<xs:element ref="Keyboards"/>
+			<xs:element ref="Guitar"/>
+			<xs:element ref="vocalist"/>
+			<xs:element ref="artist"/>
+			<xs:element ref="released_year"/>
+			<xs:element ref="description"/>
+			<xs:element ref="price"/>
+			<xs:element ref="songDescription" minOccurs="1"/>
+		</xs:sequence>
+		
+			<xs:attribute name="reshamID" use="required" type="ID_Type" />
+	</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="Gantabya">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="Gantabya_image" minOccurs="0" maxOccurs="unbounded" />
+			
+			<xs:element ref="song"/>
+			<xs:element ref="genre"/>
+			<xs:element ref="music"/>
+			<xs:element ref="Keyboards"/>
+			<xs:element ref="Guitar"/>
+			<xs:element ref="vocalist"/>
+			<xs:element ref="artist"/>
+			<xs:element ref="released_year"/>
+			<xs:element ref="description"/>
+			<xs:element ref="price"/>
+			<xs:element ref="songDescription" minOccurs="1"/>
+		</xs:sequence>
+		
+			<xs:attribute name="gantabyaID" use="required" type="ID_Type"/>
+	</xs:complexType>
+	</xs:element>
+
+
+	<xs:element name="SaraSansar">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="SaraSansar_image" minOccurs="0" maxOccurs="unbounded" />
+			
+			<xs:element ref="song"/>
+			<xs:element ref="genre"/>
+			<xs:element ref="music"/>
+			<xs:element ref="Keyboards"/>
+			<xs:element ref="Guitar"/>
+			<xs:element ref="vocalist"/>
+			<xs:element ref="artist"/>
+			<xs:element ref="released_year"/>
+			<xs:element ref="description"/>
+			<xs:element ref="price"/>
+			<xs:element ref="songDescription" minOccurs="1"/>
+		</xs:sequence>
+		
+			<xs:attribute name="sarasansarID" use="required" type="ID_Type"/>
+	</xs:complexType>
+	</xs:element>
+	
+		<xs:element name="Karma">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="Karma_image" minOccurs="0" maxOccurs="unbounded"/>
+			
+			<xs:element ref="song"/>
+			<xs:element ref="genre"/>
+			<xs:element ref="music"/>
+			<xs:element ref="Keyboards"/>
+			<xs:element ref="Guitar"/>
+			<xs:element ref="vocalist"/>
+			<xs:element ref="artist"/>
+			<xs:element ref="released_year"/>
+			<xs:element ref="description"/>
+			<xs:element ref="price"/>
+			<xs:element ref="songDescription" minOccurs="1"/>
+		</xs:sequence>
+	
+			<xs:attribute name="karmaID" use="required" type="ID_Type"/>
+	</xs:complexType>
+	</xs:element>
+<xs:element name="kandara_image"/>
+
+
+<xs:element name="Resham_image"/>
+
+
+<xs:element name="Gantabya_image"/>
+
+
+<xs:element name="SaraSansar_image"/>
+
+
+<xs:element name="Karma_image"/>
+
+
+<xs:element name="song" type="xs:string"/>
+<xs:element name="genre" type="xs:string"/>
+<xs:element name="music" type="xs:string"/>
+<xs:element name="Keyboards" type="xs:string"/>
+<xs:element name="Guitar" type="xs:string"/>
+<xs:element name="vocalist" type="xs:string"/>
+<xs:element name="artist" type="xs:string"/>
+<xs:element name="released_year" type="xs:string"/>
+<xs:element name="description" type="xs:string"/>
+<xs:element name="price" type="xs:string"/>
+
+
+
+<xs:element name="songDescription">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="duration"/>
+			<xs:element ref="video"/>
+			<xs:element ref="playback_speed"/>
+	
+</xs:sequence>
+			<xs:attribute name = "song_title" use= "required"/>
+			<xs:attribute name = "songID" use= "required" type="ID_Type"/>
+</xs:complexType>
+</xs:element>	
+	
+<xs:element name="duration" type="xs:string"/>
+<xs:element name="video" type="choose"/>
+<xs:element name = "playback_speed" type="xs:string"/>
+
+<xs:simpleType name="choose">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Quality: Full Hd" />
+			<xs:enumeration value="Quality: Hd " />
+			
+		</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="ID_Type" >
+	<xs:restriction base="xs:string">
+		<xs:pattern value="[A-Z0-9]{6}"/>
+	</xs:restriction>
+</xs:simpleType>
+
+</xs:schema>

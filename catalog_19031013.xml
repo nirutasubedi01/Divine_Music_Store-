@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="catalog_19031013.css"?> 
+
+<musicStore 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="catalog_19031013.xsd">
+<storeDetails>
+<storeLogo>
+		<html xmlns="http://www.w3.org/1999/xhtml">
+			<img src="logo.jpg"/>
+		</html>	
+	</storeLogo>
+	<storeName>Divine Music Store</storeName>
+	<storeAddress>
+	<storeAddress1>Address:Devi's Fall , Pokhara-17, Nepal</storeAddress1>
+	
+	</storeAddress>
+	<storeTelephoneNumber>
+		<storePhoneNumber1>Contact Number: 9846219429</storePhoneNumber1>
+		
+	</storeTelephoneNumber>
+	<storeWebSite>Web Site:www.seedivine011.com.np</storeWebSite>
+</storeDetails>
+
+<albums>	
+	<Kandara  albumID="C21645">
+	<kandara_image>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+			<img id="kk1" src="kandara3.jpg" width="400" height="400"/>
+		</html>
+	</kandara_image>
+		<song> Timi Pari </song>
+		<genre> Jaaz </genre>
+		<music> Suni Thapa </music>
+		<Keyboards> Buddha Raj Bajracharya  </Keyboards>
+		<Guitar> Amit Gurung </Guitar>
+		<vocalist> Bibek Shrestha </vocalist>
+		<artist> Kandara </artist>
+		<released_year>1996</released_year>
+		<description>  
+		This is one of the beautiful song among 8 songs of the album Danda Pari which is 
+		released in 1996. The mutal collabration among the team seems to the best and have huge 
+		public support and love. </description>
+		<price> 120</price>
+		<songDescription songID="T65150" song_title=" 1996 TimiPari">
+			<duration>  6:04 minutes </duration>
+			<video>Quality: Full Hd</video>
+			<playback_speed> Normal</playback_speed>
+		</songDescription>
+	</Kandara>
+	
+	<Kandara albumID="C22645">
+	<kandara_image>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+			<img src="kandara2.jpg" width="400" height="400"/>
+		</html>
+	</kandara_image>
+		<song> Lekha ke hye Maya" </song>
+		<genre>Jaaz</genre>
+		<music> Suni Thapa </music>
+		<Keyboards> Buddha Raj Bajracharya  </Keyboards>
+		<Guitar> Amit Gurung </Guitar>
+		<vocalist> Bibek Shrestha </vocalist>
+		<artist> Kandara </artist>
+		<released_year> 1997</released_year>
+		<description>  
+		This is one of the beautiful song among 8 songs of the album Danda Pari which is 
+		released in 1997. The mutal collabration among the team seems to the best and have huge 
+		public support and love. </description>
+		<price> 120</price>
+		<songDescription songID="L65050" song_title="Lekha ke 1997">
+			<duration>6:04 minutes </duration>
+			<video>Quality: Full Hd</video>
+			<playback_speed> Normal</playback_speed>
+		</songDescription>
+	</Kandara>
+	
+	
+	<Kandara albumID="C23645">
+	<kandara_image>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+			<img src="kandara.jpg" width="400" height="400"/>
+		</html>
+	</kandara_image>
+		<song> Dada Pari</song>
+		<genre>Jaaz</genre>
+		<music> Suni Thapa </music>
+		<Keyboards> Buddha Raj Bajracharya  </Keyboards>
+		<Guitar> Amit Gurung </Guitar>
+		<vocalist> Bibek Shrestha </vocalist>
+		<artist> Kandara </artist>
+			<released_year> 1997</released_year>
+		<description>  
+		This is one of the beautiful song among 8 songs of the album Danda Pari which is 
+		released in 1997. The mutal collabration among the team seems to the best and have huge 
+		public support and love. </description>
+		<price> 120 </price>
+		<songDescription songID="L60506" song_title="Danda 1997">
+			<duration> 6:04 minutes </duration>
+			<video>Quality: Full Hd</video>
+			<playback_speed> Normal</playback_speed>
+		</songDescription>
+	</Kandara>
+	
+	
+
+	
+	<Resham reshamID="C24645">
+		<Resham_image>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+			<img src="Resham.jpg" width="400" height="400"/>
+		</html>
+	</Resham_image>
+		<song> Aaina Jhyal</song>
+		<genre> Country music</genre>
+		<music> Madhav Prasad Ghimire </music>
+		<Keyboards>   </Keyboards>
+		<Guitar> Amit Gurung </Guitar>
+		<vocalist> Amrit Gurung  </vocalist>
+		<artist> Nepathya </artist>
+			<released_year> 1999</released_year>
+		<description>  
+		The album Resham contains total ten albums, One of the melodious song is Aaina Jhyal which is released
+		in year 2012. And band have collect huge public support and love. </description>
+		<price> 100 </price>
+		<songDescription songID="R60505" song_title="Aaina 1999">
+			<duration> 4:22 minutes </duration>
+			<video>Quality: Full Hd</video>
+			<playback_speed> Normal</playback_speed>
+		</songDescription>
+	</Resham>
+	
+	<Resham reshamID="C25645">
+		<Resham_image>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+			<img src="Resham2.jpg" width="400" height="400"/>
+		</html>
+	</Resham_image>
+		<song> Ukali Oorali</song>
+		<genre> Country Music </genre>
+		<music> Madhav Prasad Ghimire </music>
+		<Keyboards>   </Keyboards>
+		<Guitar> Amit Gurung </Guitar>
+		<vocalist> Amrit Gurung  </vocalist>
+		<artist> Nepathya </artist>
+			<released_year> 2000</released_year>
+		<description>  
+		 The album Resham contains total ten albums, One of the melodious song is 
+		 Ukali Oorali which is releasedin year 2008. And band have collect huge
+		 public support and love. </description>
+		<price> 120 </price>
+		<songDescription songID="R60506" song_title="Ukali 2000">
+			<duration> 6:04 minutes </duration>
+			<video>Quality: Full Hd</video>
+			<playback_speed> Normal</playback_speed>
+		</songDescription>
+	</Resham>
+	
+	
+	
+	<Resham reshamID="C26645">
+		<Resham_image>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+			<img src="Resham3.jpg" width="400" height="400"/>
+		</html>
+	</Resham_image>
+		<song> Yani Maya</song>
+		<genre> Country  Music</genre>
+		<music> Madhav Prasad Ghimire </music>
+		<Keyboards>Shyam Das   </Keyboards>
+		<Guitar> Amit Gurung </Guitar>
+		<vocalist> Amrit Gurung  </vocalist>
+		<artist> Nepathya </artist>
+			<released_year> 2013</released_year>
+		<description>  
+		 The album Resham contains total ten albums, One of the melodious song is 
+		 Yani Maya which is releasedin year 2008. And band have collect huge
+		 public support and love.</description>
+		<price> 120 </price>
+		<songDescription songID="R60507" song_title="Yanimaya 2013">
+			<duration> 6:04 minutes </duration>
+			<video>Quality: Full Hd</video>
+			<playback_speed> Normal</playback_speed>
+		</songDescription>
+	</Resham>
+	
+	
+	
+	<Gantabya gantabyaID="C27645">
+		<Gantabya_image>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+			<img src="Gantabya.jpg" width="400" height="400"/>
+		</html>
+	</Gantabya_image>
+		<song> Timro Yaad</song>
+		<genre> Pop Song </genre>
+		<music> Samrat Magar</music>
+		<Keyboards> Surya Gurung  </Keyboards>
+		<Guitar> Bishnu Gurung </Guitar>
+		<vocalist> Jeewan  Gurung  </vocalist>
+		<artist> The Edge Band </artist>
+			<released_year> 2000</released_year>
+		<description>  
+		One of the most beautiful song which is was released in year 2016
+		with the music video. The album contain total 7 songs. Timro Yaad is 
+		the first song of the fifth studio album “Gantabya” performed by 
+		The Edge Band. The song Timro Yaad Lyrics is written by The Edge Band 
+		as well as composed and arranged by The Edge Band.The music video of
+		Timro Yaad is beautifully directed by Suraya Gurung.While the starring
+		role is done by Samrat Magar and  Neelum Chand.</description>
+		<price> 110</price>
+		<songDescription songID="T60501" song_title="Timro 2000">
+			<duration> 6:04 minutes </duration>
+			<video>Quality: Full Hd</video>
+			<playback_speed> Normal</playback_speed>
+		</songDescription>
+	</Gantabya>
+	
+	
+	<Gantabya gantabyaID="C28645">
+		<Gantabya_image>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+			<img src="Gantabya2.jpg" width="400" height="400"/>
+		</html>
+	</Gantabya_image>
+		<song> Kasto Yo din </song>
+		<genre> Pop Song </genre>
+		<music> Samrat Magar</music>
+		<Keyboards> Surya Gurung  </Keyboards>
+		<Guitar> Bishnu Gurung </Guitar>
+		<vocalist> Jeewan  Gurung  </vocalist>
+		<artist> The Edge Band </artist>
+			<released_year> 1998</released_year>
+		<description>  
+		Kasto Yo Din is the second song of the fifth studio album “Gantabya” performed by
+		The Edge Band. The song Kasto Yo Din Lyrics is written by The Edge Band, 
+		as well as composed and arranged by The Edge Band.This song is pubished on 
+		20,October 2016. </description>
+		<price> 110</price>
+		<songDescription songID="T60502" song_title="Kasto 1998">
+			<duration> 6:00 minutes </duration>
+			<video>Quality: Full Hd</video>
+			<playback_speed> Normal</playback_speed>
+		</songDescription>
+	</Gantabya>
+	
+	<Gantabya gantabyaID="C20645">
+		<Gantabya_image>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+			<img src="Gantabya3.jpg" width="400" height="400"/>
+		</html>
+	</Gantabya_image>
+		<song> Samjhera</song>
+		<genre> Pop Song </genre>
+		<music> Rohit Shakya</music>
+		<Keyboards> Surya Gurung  </Keyboards>
+		<Guitar> Bishnu Gurung </Guitar>
+		<vocalist> Jeewan  Gurung  </vocalist>
+		<artist> The Edge Band </artist>
+			<released_year> 2009</released_year>
+		<description>  
+		Samjhera is the second song of the fifth studio album “Gantabya” performed by
+		The Edge Band. The song Samjhera is written by The Edge Band, as well as 
+		composed and arranged by The Edge Band.This song is pubished on 20,October 2016. </description>
+		<price> 110</price>
+		<songDescription songID="T60503" song_title="Samjhera 2009">
+			<duration> 5:04 minutes </duration>
+			<video>Quality: Full Hd</video>
+			<playback_speed> Normal</playback_speed>
+		</songDescription>
+	</Gantabya>
+	
+	
+	
+
+	
+	<SaraSansar sarasansarID="C20045">
+		<SaraSansar_image>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+			<img src="SaraSansar.jpg" width="400" height="400"/>
+		</html>
+	</SaraSansar_image>
+		<song> Sadhai Sadhai </song>
+		<genre> Rock Song </genre>
+		<music> Rohit Shakya</music>
+		<Keyboards>Manish Thapa</Keyboards>
+		<Guitar>Pragya </Guitar>
+		<vocalist>Vaskar Dewan</vocalist>
+		<artist> Mantra Band </artist>
+			<released_year>1995</released_year>
+		<description>  
+		Sadhai Sadhai is a very melodious, touchy song composed by Mantra Band.
+		Talking short about Mantra Band, It is a band which was formed in 2000 at Darjeeling. Initially, there were Pragya(Lead guitarist), Bishal(Drummer), and Pravash(Bassist).
+		Later on they needed a vocalist, then Vaskar Dewan joined the band as a Vocalist. And Manish Thapa joined as Keyboardist followed by Bidhan as a Flutist.
+		Then they started to created songs and musics which are hits upto now</description>
+		<price> 110</price>
+		<songDescription songID="S60501" song_title="Sadhai 1995">
+			<duration> 6:00 minutes </duration>
+			<video>Quality: Full Hd</video>
+			<playback_speed> Normal</playback_speed>
+		</songDescription>
+	</SaraSansar>
+	
+	
+	<SaraSansar sarasansarID="C20145">
+		<SaraSansar_image>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+			<img src="SaraSansar2.jpg" width="400" height="400"/>
+		</html>
+	</SaraSansar_image>
+		<song> Sapana </song>
+		<genre> Rock Song </genre>
+		<music> Parvas Subba </music>
+		<Keyboards>Manish Thapa</Keyboards>
+		<Guitar>Pragya </Guitar>
+		<vocalist>Vaskar Dewan</vocalist>
+		<artist> Mantra Band </artist>
+			<released_year>1995</released_year>
+		<description>  
+		Sapana is an evergreen Nepali song, performed by Mantra Band (Band Members: Bhaskar Dewan, Manish Thapa, Praggya Lama, Birju Chowdhary, Bidhan and Pravash Subba).
+		The song is written by Sudarshan Tamang and music composed and arranged by Mantra Band.</description>
+		<price> 110</price>
+		<songDescription songID="S60502" song_title="Sapana 1995">
+			<duration> 4:00 minutes </duration>
+			<video>Quality: Full Hd</video>
+			<playback_speed> Normal</playback_speed>
+		</songDescription>
+	</SaraSansar>
+	
+	<SaraSansar sarasansarID="C20245">
+		<SaraSansar_image>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+			<img src="SaraSansar3.jpg" width="400" height="400"/>
+		</html>
+	</SaraSansar_image>
+		<song> Ekantama </song>
+		<genre> Rock Song </genre>
+		<music> Parvas Subba </music>
+		<Keyboards>Manish Thapa</Keyboards>
+		<Guitar>Pragya </Guitar>
+		<vocalist>Vaskar Dewan</vocalist>
+		<artist> Mantra Band </artist>
+			<released_year>1988</released_year>
+		<description>  
+		Ekantama is an evergreen Nepali song, performed by Mantra Band (Band Members: Bhaskar Dewan, Manish Thapa, Praggya Lama, Birju Chowdhary, Bidhan and Pravash Subba).
+		The song is written by Sudarshan Tamang and music composed and arranged by Mantra Band.</description>
+		<price> 110</price>
+		<songDescription songID="S60503" song_title="Ekantama 1998">
+			<duration> 4:00 minutes </duration>
+			<video>Quality: Full Hd</video>
+			<playback_speed> Normal</playback_speed>
+		</songDescription>
+	</SaraSansar>
+	
+	
+	
+	
+	<Karma karmaID="C20345">
+		<Karma_image>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+			<img src="Karma 1.jpg" width="400" height="400"/>
+		</html>
+	</Karma_image>
+		<song>Sahar Timro</song>
+		<genre> Dubstep</genre>
+		<music>Surendra Man Singh</music>
+		<Keyboards>Anil Shakya</Keyboards>
+		<Guitar>Hari Maharjan </Guitar>
+		<vocalist>Surendra Man Singh </vocalist>
+		<artist> Karma Band </artist>
+			<released_year> 2000</released_year>
+		<description>
+		Karma Band has always focused on cultural, traditional and folk music. 
+		Our music has been contextualized, and our playing styles are modified by
+		fusing with various other traditional musical instruments, styles and genres to give it that Folk Rock touch. 
+		Mann Ko Ghanti Lyrics By Manako Ananda and  Surendra Man Singh. Sahar Timro is one of the song of the Kara Band.
+		</description>
+		<price> 100</price>
+		<songDescription songID="S60501" song_title="Sahar 2000">
+			<duration> 4:00 minutes </duration>
+			<video>Quality: Full Hd</video>
+			<playback_speed> Normal</playback_speed>
+		</songDescription>
+	</Karma>
+	
+	<Karma karmaID="C20445">
+		<Karma_image>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+			<img src="Karma2.jpg" width="400" height="400"/>
+		</html>
+	</Karma_image>
+		<song> Supadi  Dana </song>
+		<genre> Dubstep</genre>
+		<music>Surendra Man Singh</music>
+		<Keyboards>Anil Shakya</Keyboards>
+		<Guitar>Hari Maharjan </Guitar>
+		<vocalist>Surendra Man Singh </vocalist>
+		<artist> Karma  Band </artist>
+			<released_year> 1999</released_year>
+		<description>
+		Karma Band has always focused on cultural, traditional and folk music. 
+		Our music has been contextualized, and our playing styles are modified by
+		fusing with various other traditional musical instruments, styles and genres to give it that Folk Rock touch. 
+		Mann Ko Ghanti Lyrics By Manako Ananda and  Surendra Man Singh
+		</description>
+		<price> 100</price>
+		<songDescription songID="S60502" song_title="Supadi 1999">
+			<duration> 4:00 minutes </duration>
+			<video>Quality: Full Hd</video>
+			<playback_speed> Normal</playback_speed>
+		</songDescription>
+	</Karma>
+	
+	<Karma karmaID="C20545">
+		<Karma_image>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+			<img src="Karma3.jpg" width="400" height="400"/>
+		</html>
+	</Karma_image>
+		<song>Yani Maya </song>
+		<genre> Dubstep</genre>
+		<music>Surendra Man Singh</music>
+		<Keyboards>Anil Shakya</Keyboards>
+		<Guitar>Hari Maharjan </Guitar>
+		<vocalist>Surendra Man Singh </vocalist>
+		<artist> Mantra Band </artist>
+			<released_year>2001</released_year>
+		<description>
+		Karma Band has always focused on cultural, traditional and folk music. 
+		Our music has been contextualized, and our playing styles are modified by
+		fusing with various other traditional musical instruments, styles and genres to give it that Folk Rock touch. 
+		Mann Ko Ghanti Lyrics By Manako Ananda and  Surendra Man Singh. Yani Maya is one of the song of the album of Karma album.
+		</description>
+		<price> 100</price>
+		<songDescription songID="S60504" song_title="YanMaya 2001">
+			<duration> 4:00 minutes </duration>
+			<video>Quality: Full Hd</video>
+			<playback_speed> Normal</playback_speed>
+		</songDescription>
+	</Karma>
+	
+	<Karma karmaID="C20745">
+		<Karma_image>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+			<img src="karma 4.jpg" width="400" height="400"/>
+		</html>
+	</Karma_image>
+		<song> Mauntama </song>
+		<genre> Dubstep </genre>
+		<music> Surendra Man Singh</music>
+		<Keyboards> Anil Shakya</Keyboards>
+		<Guitar> Hari Maharjan </Guitar>
+		<vocalist> Surendra Man Singh </vocalist>
+		<artist> Mantra Band </artist>
+		<released_year> 2001</released_year>
+		<description>
+		Karma Band has always focused on cultural, traditional and folk music. 
+		Our music has been contextualized, and our playing styles are modified by
+		fusing with various other traditional musical instruments, styles and genres to give it that Folk Rock touch. 
+		Mann Ko Ghanti Lyrics By Manako Ananda and  Surendra Man Singh. Mauntama is one of the song of the album of Karma album.
+		</description>
+		<price> 100</price>
+		<songDescription songID="S60505" song_title=" Mauntama 2001">
+			<duration> 3:45 minutes </duration>
+			<video>Quality: Full Hd</video>
+			<playback_speed> Normal</playback_speed>
+		</songDescription>
+	</Karma>
+	
+	
+	</albums>
+</musicStore>

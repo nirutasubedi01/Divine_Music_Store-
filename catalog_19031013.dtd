@@ -1,0 +1,169 @@
+<!DOCTYPE musicStore
+[
+<!ELEMENT musicStore (storeDetails,albums)>
+<!ATTLIST musicStore
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT storeDetails (storeLogo,storeName,storeAddress,
+                        storeTelephoneNumber,storeWebSite)>
+<!ATTLIST storeDetailsreTe
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT albums (Kandara+,Resham+,Gantabya+,SaraSansar+,Karma+)>
+<!ATTLIST albums
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT storeLogo ANY>
+<!ATTLIST storeLogo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT storeName (#PCDATA)>
+<!ATTLIST storeName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT storeAddress (storeAddress1)>
+<!ATTLIST storeAddress
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT storeTelephoneNumber (storePhoneNumber1)>
+<!ATTLIST storeTelephoneNumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT storeWebSite (#PCDATA)>
+<!ATTLIST storeWebSite
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Kandara (kandara_image,song,genre,music,Keyboards,Guitar,
+                   vocalist,artist,released_year,description,price,
+                   songDescription)>
+<!ATTLIST Kandara
+  xmlns CDATA #FIXED ''
+  albumID NMTOKEN #REQUIRED>
+
+<!ELEMENT Resham (Resham_image,song,genre,music,Keyboards,Guitar,
+                  vocalist,artist,released_year,description,price,
+                  songDescription)>
+<!ATTLIST Resham
+  xmlns CDATA #FIXED ''
+  reshamID NMTOKEN #REQUIRED>
+
+<!ELEMENT Gantabya (Gantabya_image,song,genre,music,Keyboards,Guitar,
+                    vocalist,artist,released_year,description,price,
+                    songDescription)>
+<!ATTLIST Gantabya
+  xmlns CDATA #FIXED ''
+  gantabyaID NMTOKEN #REQUIRED>
+
+<!ELEMENT SaraSansar (SaraSansar_image,song,genre,music,Keyboards,
+                      Guitar,vocalist,artist,released_year,description,
+                      price,songDescription)>
+<!ATTLIST SaraSansar
+  xmlns CDATA #FIXED ''
+  sarasansarID NMTOKEN #REQUIRED>
+
+<!ELEMENT Karma (Karma_image,song,genre,music,Keyboards,Guitar,vocalist,
+                 artist,released_year,description,price,
+                 songDescription)>
+<!ATTLIST Karma
+  xmlns CDATA #FIXED ''
+  karmaID NMTOKEN #REQUIRED>
+
+<!ELEMENT storeAddress1 (#PCDATA)>
+<!ATTLIST storeAddress1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT storePhoneNumber1 (#PCDATA)>
+<!ATTLIST storePhoneNumber1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT kandara_image ANY>
+<!ATTLIST kandara_image
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Resham_image ANY>
+<!ATTLIST Resham_image
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Gantabya_image ANY>
+<!ATTLIST Gantabya_image
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT SaraSansar_image ANY>
+<!ATTLIST SaraSansar_image
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Karma_image ANY>
+<!ATTLIST Karma_image
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ns1:html ANY>
+<!ATTLIST ns1:html
+  xmlns:ns1 CDATA #FIXED 'http://www.w3.org/1999/xhtml'>
+
+<!ELEMENT ns1:img EMPTY>
+<!ATTLIST ns1:img
+  xmlns:ns1 CDATA #FIXED 'http://www.w3.org/1999/xhtml'
+  height CDATA #IMPLIED
+  id NMTOKEN #IMPLIED
+  src CDATA #REQUIRED
+  width CDATA #IMPLIED>
+
+<!ELEMENT song (#PCDATA)>
+<!ATTLIST song
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT genre (#PCDATA)>
+<!ATTLIST genre
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT music (#PCDATA)>
+<!ATTLIST music
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Keyboards (#PCDATA)>
+<!ATTLIST Keyboards
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Guitar (#PCDATA)>
+<!ATTLIST Guitar
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT vocalist (#PCDATA)>
+<!ATTLIST vocalist
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT artist (#PCDATA)>
+<!ATTLIST artist
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT released_year (#PCDATA)>
+<!ATTLIST released_year
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT description (#PCDATA)>
+<!ATTLIST description
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT songDescription (duration,video,playback_speed)>
+<!ATTLIST songDescription
+  xmlns CDATA #FIXED ''
+  songID NMTOKEN #REQUIRED
+  song_title CDATA #REQUIRED>
+
+<!ELEMENT duration (#PCDATA)>
+<!ATTLIST duration
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT video (#PCDATA)>
+<!ATTLIST video
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT playback_speed (#PCDATA)>
+<!ATTLIST playback_speed
+  xmlns CDATA #FIXED ''>
+ 
+]>

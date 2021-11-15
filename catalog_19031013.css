@@ -1,0 +1,86 @@
+musicStore{
+	background-color:#608000
+}
+storeName{
+	display:block;
+	color:#608000;
+	text-align: center;	
+	font-size:70px;
+	padding-left:20px;
+	background-color:#800000;
+	font-family: Impact, Charcoal, sans-serif;
+	 margin-top:40px;
+	 margin-right:25px;
+	
+}
+
+
+storeLogo{
+	float:left;
+	position:absolute;
+    margin-left:50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    	
+}
+Kandara, Resham, Gantabya, SaraSansar, Karma{
+	background-image: linear-gradient(#608000, #800000); 
+	width:400px; 
+	display: inline-block;
+	height: auto;
+	padding: 50px; 
+	font-family: serif, Helvetica, sans-serif; 
+	margin:20px;
+	margin-left:100px;
+	border: 1px solid #608000;
+	color:white;
+	
+}
+storeAddress1, storePhoneNumber1,  storeWebSite {
+	text-align: right;	
+	font-size: 25px; 
+	font-weight: bold;
+	display: block; 
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-right:25px;
+	color:#800000;
+	background-color:#608000;
+	font-family: Fantasy;
+}
+storeWebSite { cursor:pointer; color: #9196fa; text-decoration:underline; font-family: serif;
+}
+storeWebSite:hover { text-decoration:none; color:#800000 ;}
+Kandara:hover { text-decoration:none; color:black; text-shadow: 1px 1px 1px #282085;}
+Resham:hover { text-decoration:none; color:black; text-shadow: 1px 1px 1px #282085}
+Gantabya:hover { text-decoration:none; color:black; text-shadow: 1px 1px 1px #21043d ;}
+SaraSansar:hover { text-decoration:none; color:black; text-shadow: 1px 1px 1px #21043d;}
+Karma:hover { text-decoration:none; color:black; text-shadow: 1px 1px 1px #a69e07;}
+
+song, genre, music, Keyboards,Guitar, vocalist, artist, price, duration, video, playback_speed, {	display: block;	margin-top: 10px;}
+
+song:before {	content: "Song:"; font-size: 20px; font-weight: bold;  }
+genre:before {	content: "Genre:"; font-size: 20px; font-weight: bold; display: block;}
+music:before {	content: "Music:"; font-size: 20px; font-weight: bold; display: block; }
+Keyboards:before {	content: "Keyboard:"; font-size: 20px; font-weight: bold; display: block;}
+Guitar:before {	content: "Guitar:"; font-size: 20px; font-weight: bold; display: block;}
+vocalist:before {	content: "Vocalist:"; font-size: 20px; font-weight: bold; display: block; }
+artist:before {	content: "Artist:"; font-size: 20px; font-weight: bold; display: block; }
+description:before {	content: "Description:"; font-size: 20px; font-weight: bold; display: block;}
+price:before {	content: "Price:"; font-size: 20px;font-weight: bold; display: block; }
+released_year:before {	content: "Released Year:"; font-size: 20px;font-weight: bold; display: block; }
+duration:before {	content: "Length:"; font-size: 20px; font-weight: bold; display: block;}
+playback_speed:before {	content: "Playback Speed:"; font-size: 20px;font-weight: bold; display: block;}
+kandara_image:before {	content: "Kandara:"; font-size: 40px;font-weight: bold; }
+Resham_image:before {	content: "Resham:"; font-size: 40px;font-weight: bold; }
+Gantabya_image:before {	content: "Gantabya:"; font-size: 40px;font-weight: bold; }
+SaraSansar_image:before {	content: "SaraSansar:"; font-size: 40px;font-weight: bold; }
+Karma_image:before {	content: "Karma:"; font-size: 40px;font-weight: bold; }
+
+Quality{
+	font-size: 20px; font-weight: bold; display: block;
+}
+
+
+
+
